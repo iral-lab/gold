@@ -16,7 +16,7 @@ The **G**r**o**unded **L**anguage **D**ataset, or GoLD, is a grounded language l
 
 * [1. Introduction](#1-introduction)
 * [2. Dataset downloading](#2-dataset-downloading)
-* [3. How to cite](how-to-cite)
+* [3. How to cite](#3-how-to-cite)
 
 ## 1. Introduction
 
