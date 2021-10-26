@@ -16,7 +16,7 @@ Gaoussou Youssouf Kebe<sup>1</sup>, Padraig Higgins<sup>1</sup>, Patrick Jenkins
 
 ## 1. Introduction
 
-The **G**r**o**unded **L**anguage **D**ataset, or GoLD, is a grounded language learning dataset in five modalities: RGB, depth, text, transcribed speech, and speech. The data contains 207 instances of 47 object classes. The objects are from five high level categories of _food_, _home_, _medical_, _office_, and _tool_. Each instance is captured from different angles for a total of 825 images. Text and speech descriptions are collected using Amazon Mechanical Turk (AMT) for a total of 16500 text descriptions and 16500 speech descriptions.
+The **G**r**o**unded **L**anguage **D**ataset, or GoLD, is a grounded language learning dataset in four modalities: RGB, depth, text, speech. The data contains 207 instances of 47 object classes. The objects are from five high level categories of _food_, _home_, _medical_, _office_, and _tool_. Each instance is captured from different angles for a total of 825 images. Text and speech descriptions are collected using Amazon Mechanical Turk (AMT) for a total of 16500 text descriptions and 16500 speech descriptions.
 
 The data is intended for use in multimodal grounded language acquisition tasks for domestic robots and for testing algorithmic differences between the domains.
 
