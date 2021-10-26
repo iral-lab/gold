@@ -1,10 +1,8 @@
-# GoLD
+# GoLD: A Spoken Language Dataset of Descriptions for Speech-Based Grounded Language Learning
 
-[Arxiv paper](https://arxiv.org/pdf/2007.14987.pdf)
+[NeurIPS 2021](https://openreview.net/pdf?id=Yx9jT3fkBaD)
 
-Patrick Jenkins<sup>1</sup>, Rishabh Sachdeva<sup>1</sup>, Gaoussou Youssouf Kebe<sup>1</sup>, 
-Padraig Higgins<sup>1</sup>, Kasra Darvish<sup>1</sup>, Edward Raff<sup>1, 2</sup>,
-Don Engel<sup>1</sup>, John Winder<sup>1, 3</sup>, Francis Ferraro<sup>1</sup>, Cynthia Matuszek<sup>1</sup>
+Gaoussou Youssouf Kebe<sup>1</sup>, Padraig Higgins<sup>1</sup>, Patrick Jenkins<sup>1</sup>, Kasra Darvish<sup>1</sup>, Rishabh Sachdeva<sup>1</sup>, Ryan Barron<sup>1</sup>, John Winder<sup>1, 3</sup>, Don Engel<sup>1</sup>, Edward Raff<sup>1, 2</sup>, Francis Ferraro<sup>1</sup>, Cynthia Matuszek<sup>1</sup>
 
 <sup>1</sup> <sub>University of Maryland, Baltimore County (UMBC)</sub>  
 <sup>2</sup> <sub>Booz Allen Hamilton</sub>
@@ -18,7 +16,7 @@ Don Engel<sup>1</sup>, John Winder<sup>1, 3</sup>, Francis Ferraro<sup>1</sup>, 
 
 ## 1. Introduction
 
-The **G**r**o**unded **L**anguage **D**ataset, or GoLD, is a grounded language learning dataset in five modalities: RGB, depth, text, transcribed speech, and speech. The data contains 207 instances of 47 object classes. The objects are from five high level categories of _food_, _home_, _medical_, _office_, and _tool_. Each instance is captured from different angles for a total of 825 images. Text and speech descriptions are collected using Amazon Mechanical Turk (AMT) for a total of 8250 text descriptions and 4059 speech descriptions.
+The **G**r**o**unded **L**anguage **D**ataset, or GoLD, is a grounded language learning dataset in five modalities: RGB, depth, text, transcribed speech, and speech. The data contains 207 instances of 47 object classes. The objects are from five high level categories of _food_, _home_, _medical_, _office_, and _tool_. Each instance is captured from different angles for a total of 825 images. Text and speech descriptions are collected using Amazon Mechanical Turk (AMT) for a total of 16500 text descriptions and 16500 speech descriptions.
 
 The data is intended for use in multimodal grounded language acquisition tasks for domestic robots and for testing algorithmic differences between the domains.
 
@@ -98,6 +96,11 @@ Video files are available upon request.
 
 ## 3. How to cite
 
-```
-TODO: bibtex
-```
+@inproceedings{
+kebe2021a,
+title={A Spoken Language Dataset of Descriptions for Speech-Based Grounded Language Learning},
+author={Gaoussou Youssouf Kebe and Padraig Higgins and Patrick Jenkins and Kasra Darvish and Rishabh Sachdeva and Ryan Barron and John Winder and Donald Engel and Edward Raff and Francis Ferraro and Cynthia Matuszek},
+booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1)},
+year={2021},
+url={https://openreview.net/forum?id=Yx9jT3fkBaD}
+}
