@@ -25,7 +25,7 @@ The data is intended for use in multimodal grounded language acquisition tasks f
 The dataset consists of a directory of images, a directory of wav files, and two tsv files with descriptions. Each image label is formated as \<object name\>\_\<instance number\>\_\<frame number\>. wav files are labeled as \<object name\>\_\<instance number\>\_\<frame number\>\_\<description number\>.
 
 The structure of the image files looks like
-```
+<pre>
 **images**
 └── **RGB**
     └── allen_wrench
@@ -87,7 +87,7 @@ The structure of the image files looks like
     └── apple
         └── ...
     └── ...
-```
+<pre>
 
 [speech.tsv](speech.tsv) contains 6 fields
 - hit_id: AMT hit id
