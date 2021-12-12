@@ -51,7 +51,7 @@ The structure of the image files looks like
     └── apple
         └── ...
     └── ...
-└── <b>RGB_masked</b>
+└── <b>RGB_raw</b>
     └── allen_wrench
         └── ...
     └── apple
@@ -88,14 +88,14 @@ The structure of the image files looks like
         └── ...
     └── ...
 </pre>
-- [RGB:] RGB images with background masked out
-- [RGB_cropped:] RGB images with background cropped out
-- [depth:] Depth images with background masked out
-- [depth_cropped:] Depth images with background cropped out
-- [RGB_raw:](images/RGB/) Full RGB images
-- [pcd:] Full point clouds
-- [pcd_cropped:] Point clouds with background cropped out
-- [pcd_visualization:] Visualizations of the point clouds
+- [RGB:](images/RGB/) RGB images with background masked out
+- [RGB_cropped:](images/RGB_cropped/) RGB images with background cropped out
+- [RGB_raw:](images/RGB_raw/) Full RGB images
+- [depth:](images/depth/) Depth images with background masked out
+- [depth_cropped:](images/depth_cropped/) Depth images with background cropped out
+- [pcd:](images/pcd/) Full point clouds
+- [pcd_cropped:](images/pcd_cropped/) Point clouds with background cropped out
+- [pcd_visualization:](images/pcd_visualization/) Visualizations of the point clouds
 
 [speech.tsv](speech.tsv) contains 6 fields
 - hit_id: AMT hit id
