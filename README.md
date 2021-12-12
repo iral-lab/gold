@@ -26,7 +26,7 @@ The dataset consists of a directory of images, a directory of wav files, and two
 
 The structure of the image files looks like
 <pre>
-**images**
+<b>images</b>
 └── **RGB**
     └── allen_wrench
         └── allen_wrench_1
