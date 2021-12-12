@@ -89,6 +89,15 @@ The structure of the image files looks like
     └── ...
 </pre>
 
+- [RGB:](images/RGB/) AMT hit id
+- [RGB_cropped:] anonymized worker id
+- [RGB_masked:] time in seconds to complete the AMT task
+- [depth:] label for the object, instance, and frame number
+- [depth_cropped:] name of the related wav file in the speech directory
+- [pcd:] the Google speech-to-text transcription
+- [pcd_cropped:] the Google speech-to-text transcription
+- [pcd_visualization:] the Google speech-to-text transcription
+
 [speech.tsv](speech.tsv) contains 6 fields
 - hit_id: AMT hit id
 - worker_id: anonymized worker id
