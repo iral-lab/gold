@@ -88,6 +88,7 @@ The structure of the image files looks like
         └── ...
     └── ...
 </pre>
+[images](images/) contains 8 folders
 - [RGB:](images/RGB/) RGB images with background masked out
 - [RGB_cropped:](images/RGB_cropped/) RGB images with background cropped out
 - [RGB_raw:](images/RGB_raw/) Full RGB images
