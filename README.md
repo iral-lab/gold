@@ -87,7 +87,7 @@ The structure of the image files looks like
     └── apple
         └── ...
     └── ...
-<pre>
+</pre>
 
 [speech.tsv](speech.tsv) contains 6 fields
 - hit_id: AMT hit id
