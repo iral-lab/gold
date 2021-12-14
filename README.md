@@ -94,6 +94,7 @@ The structure of the image files looks like
 - [RGB_raw:](images/RGB_raw/) Full RGB images
 - [depth:](images/depth/) Depth images with background masked out
 - [depth_cropped:](images/depth_cropped/) Depth images with background cropped out
+- [depth_raw:](images/depth_raw/) Full depth images
 - [pcd:](images/pcd/) Full point clouds
 - [pcd_cropped:](images/pcd_cropped/) Point clouds with background cropped out
 - [pcd_visualization:](images/pcd_visualization/) Visualizations of the point clouds
